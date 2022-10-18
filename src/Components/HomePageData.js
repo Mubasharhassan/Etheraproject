@@ -7,7 +7,7 @@ import StickyHeadTable from "./DateTime";
 const HomePageData = () => {
   return (
     <>
-      <div>
+      <div className="add-all-div">
         <div class=" main-div-data">
           <h2>Your Appoinments</h2>
           <button className="outlined">
@@ -93,7 +93,7 @@ const HomePageData = () => {
             </div>
           </div>
 
-          <StickyHeadTable />
+          {/* <StickyHeadTable /> */}
         </div>
         {/* </div> */}
       </div>

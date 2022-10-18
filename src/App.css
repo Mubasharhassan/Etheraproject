@@ -30,6 +30,12 @@
   margin-top: -17px;
   /* margin-left: 1rem; */
 }
+.add-all-div {
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+  /* margin-left: 5rem; */
+}
 .previous-appoinment-peragraph {
   margin-top: 0px;
   font-size: 1.1rem;
@@ -50,7 +56,7 @@
   justify-content: space-evenly;
   /* height: 3rem; */
 }
-.two-d-div{
+.two-d-div {
   display: flex;
   flex-wrap: wrap;
   gap: 2rem;
@@ -80,11 +86,11 @@
 }
 .main-div-data {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   flex-wrap: wrap;
   align-items: center;
   gap: 1rem;
-  padding-left: 13.5rem;
+  /* padding-left: 13.5rem; */
 }
 .outlined {
   margin-right: 1rem;
@@ -133,18 +139,19 @@
   }
 }
 .sidebar-div {
-  width: 250px;
+  /* width: 10%; */
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
 }
 .navbar {
-  width: 220px;
+  width: 15%;
   height: 100%;
   background-color: #555;
   overflow: auto;
   position: fixed;
-  display: block;
+  display: flex;
+  flex-direction: column;
 }
 .navbar a {
   display: flex;
@@ -168,4 +175,19 @@
     float: none;
     display: block;
   }
+}
+
+.main-block {
+  /* padding: 16px; */
+  /* max-width: 900px; */
+  margin: 0 auto;
+  /* font-size: 18px; */
+}
+.fixedTop {
+  width: 100%;
+  position: fixed;
+  top: 0;
+}
+.fixedTop + .main-block {
+  padding-top: 102px;
 }
