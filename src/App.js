@@ -1,15 +1,14 @@
-import './App.css';
-import Header from './Components/Header';
-import SideBar from './Components/SideBar';
+import "./App.css";
+import Header from "./Components/Header";
+import SideBar from "./Components/SideBar";
 
 function App() {
   return (
     <>
       <div>
-      <Header />
+        <Header />
         <SideBar />
-        
-           </div>
+      </div>
     </>
   );
 }
