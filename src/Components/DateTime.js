@@ -7,6 +7,7 @@ import TableContainer from '@mui/material/TableContainer';
 import TableHead from '@mui/material/TableHead';
 import TablePagination from '@mui/material/TablePagination';
 import TableRow from '@mui/material/TableRow';
+import { color } from '@mui/system';
 
 const columns = [
   { id: 'name', label: 'Date', minWidth: 170 },
@@ -58,7 +59,7 @@ export default function StickyHeadTable() {
   };
 
   return (
-    <Paper sx={{ width: '100%', flexWrap: 'wrap', overflow: 'hidden'}}>
+    <Paper sx={{ width: '80%', flexWrap: 'wrap', overflow: 'hidden' , color:"red"}}>
       <TableContainer sx={{ maxHeight: 440 , }}>
         <Table stickyHeader aria-label="sticky table">
           <TableHead>

@@ -45,7 +45,7 @@ const SideBar = () => {
           </a>
         </div>
       </div>
-      <HomePageData />
+      {/* <HomePageData /> */}
     </>
   );
 };

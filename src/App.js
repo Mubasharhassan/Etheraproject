@@ -1,6 +1,8 @@
 import "./App.css";
-// import Header from "./Components/Header";
+import Header from "./Components/Header";
+import HomePageData from "./Components/HomePageData";
 import Layout from "./Components/Layout";
+import ClippedDrawer from "./Components/LeftDrawer";
 import SideBar from "./Components/SideBar";
 
 function App() {
@@ -8,8 +10,9 @@ function App() {
     <>
       <div>
         {/* <Header /> */}
-        <Layout />
-        <SideBar />
+        {/* <Layout /> */}
+        {/* <SideBar /> */}
+        <ClippedDrawer />
       </div>
     </>
   );
