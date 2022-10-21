@@ -68,8 +68,11 @@
 .main-div-flex {
   display: flex;
 }
-.Appoinment-div {
+body{
   background-color: #fefbf4;
+}
+.Appoinment-div {
+  /* background-color:#fefbf4; */
   margin: 0px;
   padding: 0px !important;
 }
@@ -77,7 +80,6 @@
   display: flex;
   gap: 2rem;
   height: auto;
-  /* margin-left: 1rem; */
 }
 .Appoinment-main-div {
   border-radius: 15px;
@@ -196,7 +198,7 @@ th {
 th {
   background-color: #faf6ed;
   height: 60px;
-  border-bottom: .7px solid gray;
+  border-bottom: 0.7px solid gray;
   border-top: none;
   padding: 0 1rem;
   text-align: left;

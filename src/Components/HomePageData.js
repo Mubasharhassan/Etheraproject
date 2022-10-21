@@ -107,12 +107,8 @@ const HomePageData = () => {
             </div>
           </div>
         </div>
-
-        <div class="main">
-          {/* <StickyHeadTable /> */}
-          <TableData />
-        </div>
       </div>
+      <TableData />
     </>
   );
 };
