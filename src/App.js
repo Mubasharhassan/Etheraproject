@@ -1,4 +1,5 @@
 import "./App.css";
+import "./index.css";
 import Header from "./Components/Header";
 import HomePageData from "./Components/HomePageData";
 import Layout from "./Components/Layout";
@@ -13,6 +14,7 @@ function App() {
         {/* <Layout /> */}
         {/* <SideBar /> */}
         <ClippedDrawer />
+
       </div>
     </>
   );

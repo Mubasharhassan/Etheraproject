@@ -20,6 +20,7 @@ import AccountCircleRoundedIcon from "@mui/icons-material/AccountCircleRounded";
 import SettingsRoundedIcon from "@mui/icons-material/SettingsRounded";
 import Header from "./Header";
 import HomePageData from "./HomePageData";
+import Insurance from "./Insurance";
 
 const drawerWidth = 240;
 const drawerList = [
@@ -84,7 +85,8 @@ export default function ClippedDrawer() {
         </div>
 
         <Box component="main" sx={{ flexGrow: 1 }}>
-          <HomePageData />
+          {/* <HomePageData /> */}
+          <Insurance />
         </Box>
       </Box>
     </Box>
