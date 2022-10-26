@@ -24,7 +24,7 @@ const drawerList = [
   { name: "Messages", icons: <ForumRoundedIcon />, to: "/Messages" },
   { name: "Billing", icons: <MonetizationOnIcon />, to: "/Billing" },
   { name: "Insurance", icons: <GppGoodOutlinedIcon />, to: "/Insurance" },
-  { name: "My Provider", icons: <AccountCircleRoundedIcon />, to: "/Provider" },
+  { name: "My Provider", icons: <AccountCircleRoundedIcon />, to: "/Profile" },
   { name: "Settings", icons: <SettingsRoundedIcon />, to: "/Settings" },
 ];
 
