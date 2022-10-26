@@ -35,7 +35,7 @@
   font-weight: 700;
   font-size: 1.5rem;
   height: 100px;
-  background-color: #fff;
+  background-color: #fefbf4;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -73,8 +73,8 @@
 .main-div-flex {
   display: flex;
 }
-body{
-  background-color: #fefbf4;
+body {
+  background-color: #fff;
 }
 .Appoinment-div {
   /* background-color:#fefbf4; */
