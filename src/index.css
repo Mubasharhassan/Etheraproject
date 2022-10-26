@@ -44,16 +44,38 @@
   width: 25px;
   vertical-align: middle;
   margin-bottom: 5px;
-  margin-left: 1rem;
+  /* margin-left: 1rem; */
 }
 .radio-label {
   font-weight: 500;
   font-size: 1.2rem;
+  margin-left: 10px;
+}
+.radio-label-for-insurance-type {
+  font-weight: 500;
+  font-size: 1.5rem;
+  margin-left: 10px;
+  vertical-align: middle;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.radio-type-insurance {
+  margin-top: 10px;
+}
+.hr-line-create {
+  margin: 2rem 0;
+  gap: 1rem;
+}
+.insurance-type-radio-btn {
+  display: flex;
+  /* width: 60%; */
+  justify-content: space-between;
+}
+.insurance-type-three-divs {
+  width: auto;
 }
 .Insurance-upload-cards {
   display: flex;
   width: 60%;
-  /* height: 250px; */
   gap: 2rem;
   text-align: center;
   justify-content: center;
@@ -64,7 +86,6 @@
   border-top: none;
   border-radius: 30px;
   width: 100%;
-  /* height: 350px; */
   padding-left: 1rem;
   margin-top: 1px;
   margin-left: 1rem;

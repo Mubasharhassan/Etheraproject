@@ -1,6 +1,6 @@
 import React from "react";
 import AddCircleRoundedIcon from "@mui/icons-material/AddCircleRounded";
-import { IoMdArrowDropdown } from "react-icons/io";
+import { RiDeleteBin5Line } from "react-icons/ri";
 import { HiCloudArrowUp } from "react-icons/hi2";
 import { HiCloudArrowDown } from "react-icons/hi2";
 
@@ -162,23 +162,107 @@ const Insurance = () => {
               </div>
             </div>
           </div>
-          <hr />
+          <hr className="hr-line-create" />
           <div className="Insurance-company">
             <b>Insurance Information</b>
           </div>
           <div className="Insurance-company-info">
-            <span>Insurance Type</span>
-            <div className="radio-div">
-              <input
-                type="radio"
-                id="html"
-                name="fav_language"
-                // value="Client"
-                className="Radio-button-for-clients"
-              />
-              <label for="html" className="radio-label">
-                Other
-              </label>
+            <div className="insurance-type-radio-btn">
+              <div className="insurance-type-three-divs">
+                <span>Insurance Type</span>
+                <div className="radio-type-insurance">
+                  <input
+                    type="radio"
+                    id="html"
+                    name="fav_language"
+                    // value="Client"
+                    className="Radio-button-for-clients"
+                  />
+                  <label for="html" className="radio-label-for-insurance-type">
+                    Primary Insurance
+                  </label>
+                </div>
+                <div className="radio-type-insurance">
+                  <input
+                    type="radio"
+                    id="html"
+                    name="fav_language"
+                    // value="Client"
+                    className="Radio-button-for-clients"
+                  />
+                  <label for="html" className="radio-label-for-insurance-type">
+                    Secondary Insurance
+                  </label>
+                </div>
+                <div className="radio-type-insurance">
+                  <input
+                    type="radio"
+                    id="html"
+                    name="fav_language"
+                    // value="Client"
+                    className="Radio-button-for-clients"
+                  />
+                  <label for="html" className="radio-label-for-insurance-type">
+                    Other
+                  </label>
+                </div>
+              </div>
+
+              <div className="insurance-type-three-divs">
+                <span>Who is the primary insured</span>
+                <div className="radio-type-insurance">
+                  <input
+                    type="radio"
+                    id="html"
+                    name="fav_language"
+                    // value="Client"
+                    className="Radio-button-for-clients"
+                  />
+                  <label for="html" className="radio-label-for-insurance-type">
+                    Myself
+                  </label>
+                </div>
+                <div className="radio-type-insurance">
+                  <input
+                    type="radio"
+                    id="html"
+                    name="fav_language"
+                    // value="Client"
+                    className="Radio-button-for-clients"
+                  />
+                  <label for="html" className="radio-label-for-insurance-type">
+                    Spouse
+                  </label>
+                </div>
+                <div className="radio-type-insurance">
+                  <input
+                    type="radio"
+                    id="html"
+                    name="fav_language"
+                    // value="Client"
+                    className="Radio-button-for-clients"
+                  />
+                  <label for="html" className="radio-label-for-insurance-type">
+                    Parent/ Guardian
+                  </label>
+                </div>
+                <div className="radio-type-insurance">
+                  <input
+                    type="radio"
+                    id="html"
+                    name="fav_language"
+                    // value="Client"
+                    className="Radio-button-for-clients"
+                  />
+                  <label for="html" className="radio-label-for-insurance-type">
+                    Other
+                  </label>
+                </div>
+              </div>
+              <div className="insurance-type-three-divs">
+                <RiDeleteBin5Line size={30} />
+               
+              </div>
             </div>
           </div>
         </form>
