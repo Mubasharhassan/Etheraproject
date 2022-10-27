@@ -1,3 +1,10 @@
+$Primary-Font-Family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+  "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+$Secondary-Font-Family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+  "Lucida Sans", Arial, sans-serif;
+$Trisiary-Font-Family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+  "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+
 .insurance-form {
   margin-top: 20px;
 }
@@ -11,9 +18,10 @@
   margin-top: 10px;
   width: 100%;
   height: 50px;
-  border-radius: 30px;
+  border: 1px solid gray;
+  border-radius: 33px;
   font-size: 1.5rem;
-  padding-left: 0.5rem;
+  padding-left: 0.8rem;
   /* margin-left: 1rem; */
 }
 .member-group-plan-div {
@@ -27,6 +35,10 @@
 .clients-relationship-div {
   padding-left: 1rem;
   margin-top: 10px;
+  font-family: $Primary-Font-Family;
+}
+.upload-front-and-back-card-peragraph {
+  font-family: $Primary-Font-Family;
 }
 .clients-relationship-div1 {
   padding-left: 1rem;
@@ -117,7 +129,7 @@
 }
 .insurance-type-radio-btn {
   display: flex;
-  /* width: 60%; */
+  flex-wrap: wrap;
   justify-content: space-between;
 }
 .insurance-type-three-divs {
@@ -125,8 +137,10 @@
 }
 .Insurance-upload-cards {
   display: flex;
+  // flex-wrap: wrap;
   width: 60%;
   gap: 2rem;
+  margin-top: 1rem;
   text-align: center;
   justify-content: center;
   align-items: center;
@@ -134,6 +148,7 @@
 .Insurance-upload-cards2 {
   margin-top: 1rem;
   display: flex;
+  flex-wrap: wrap;
   width: 60%;
   gap: 2rem;
   text-align: center;
@@ -182,6 +197,9 @@
 .active {
   color: black;
   background-color: lightgray;
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-family: $Secondary-Font-Family;
 }
 .cancle-and-save-btn-div {
   width: 100%;
@@ -228,13 +246,161 @@
   border-radius: 35px;
   font-size: 1.1rem;
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: center;
   margin-top: 1rem;
 }
-
+.label-name-div {
+  margin-left: 1rem;
+  font-family: $Secondary-Font-Family;
+}
+.label-name-div20 {
+  margin-left: 1rem;
+  margin-top: 0.7rem;
+  font-family: $Secondary-Font-Family;
+}
 .outlined-icon {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
+}
+.phone-with-call-icon-in-profile {
   display: flex;
+  flex-wrap: wrap;
+  width: 8%;
+  margin-top: 1rem;
+  /* background-color: #d0d8e5; */
+}
+.icon-and-phonecall {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.phone-with-icon-btn {
+  width: 100%;
+  height: 50px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  background-color: #d0d8e5;
+  border: none;
+}
+.member-group-plan-div1 {
+  width: 75%;
+  margin-top: 0.7rem;
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 1rem;
+  // gap: -1.5rem;
+  justify-content: space-between;
+}
+.member-company-in-profile-div {
+  width: auto;
+}
+.label-with-span-in-profile {
+  display: flex;
+  flex-wrap: wrap;
+}
+.input-feild-insurance-company-in-profile {
+  margin-top: 10px;
+  width: auto;
+  height: 30px;
+  border-radius: 33px;
+  font-size: 1.5rem;
+}
+.radio-div-for-profile {
+  margin-top: 2rem;
+}
+.radio-div-for-profile1 {
+  margin-top: 2.5rem;
+}
+.address-icon-in-profile {
+  display: flex;
+  flex-wrap: wrap;
+  width: 40%;
+  justify-content: space-between;
+  margin-top: 1rem;
+  /* background-color: #d0d8e5; */
+}
+.address-with-icon-btn {
+  width: 23%;
+  height: 50px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  background-color: #d0d8e5;
+  border: none;
+}
+.peragraph-in-address {
+  width: auto;
+}
+.Insurance-company-for-profile {
+  width: 60%;
+  flex-wrap: wrap;
+  padding-left: 1rem;
+  margin-top: 1rem;
+}
+.billing-type-div {
+  margin-left: 1rem;
+  font-family: $Secondary-Font-Family;
+  font-size: 1.2rem;
+}
+.billing-type-in-profile-div {
+  padding-left: 1rem;
+  margin-top: 10px;
+}
+.billing-type-data1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 15%;
+  margin-left: 10px;
+  padding-top: 1rem;
+  font-family: $Secondary-Font-Family;
+}
+.outlined-icon-in-profile {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-right: 1rem;
+  padding-left: 0px;
+  // gap: 1rem;
+}
+.main-div-of-profile {
+  padding-left: 1rem;
+}
+.main-div-data-for-billing {
+  padding-left: 2rem;
+  font-weight: 700;
+  font-size: 1.5rem;
+  height: 100px;
+  background-color: #fefbf4;
+  display: flex;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 1rem;
+  // float: right !important;
+  // width: 100%;
+}
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.empty-div-in-billing {
+  background-color: #f9f3e5;
+  height: 80px;
+  margin-top: 0px;
+}
+.current-invoices-peragraph {
+  justify-content: flex-start;
+  flex: 1;
+  height: 80px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-left: 2rem;
+  font-size: 1.2rem;
+  font-family: $Secondary-Font-Family;
 }

@@ -4,6 +4,7 @@ import VideoChatIcon from "@mui/icons-material/VideoChat";
 import PersonIcon from "@mui/icons-material/Person";
 import LocationOnIcon from "@mui/icons-material/LocationOn";
 import DoorSlidingIcon from "@mui/icons-material/DoorSliding";
+import { HiOutlinePlusCircle } from "react-icons/hi";
 import StickyHeadTable from "./DateTime";
 import TableData from "./TableData";
 
@@ -13,8 +14,8 @@ const HomePageData = () => {
       <div className="Appoinment-div ">
         <div class=" main-div-data">
           <h2>Your Appoinments</h2>
-          <button className="outlined">
-            <AddCircleRoundedIcon className="outlined-icon" />
+          <button className="outlined11">
+            <AddCircleRoundedIcon className="outlined-icon"/>
             <span>Request Appoinments</span>
           </button>
         </div>

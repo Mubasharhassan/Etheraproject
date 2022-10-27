@@ -44,11 +44,11 @@ const TableData = () => {
             <th className="table-heading">Total</th>
           </tr>
           {ListItem.map((item, index) => (
-            <tr>
-              <td className="table-data">{item.Date}</td>
-              <td className="table-data">{item.Time}</td>
-              <td className="table-data">{item.Location}</td>
-              <td className="table-data">{item.Total}</td>
+            <tr className="table-row-data">
+              <td className="table-data"><b>{item.Date}</b></td>
+              <td className="table-data-time">{item.Time}</td>
+              <td className="table-data-time">{item.Location}</td>
+              <td className="table-data-time">{item.Total}</td>
             </tr>
           ))}
         </table>
