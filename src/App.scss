@@ -74,7 +74,7 @@ $Secondary-Font-Family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
   width: 9vw;
   text-align: center;
   color: #fff;
-  background-color: #84a28c; 
+  background-color: #84a28c;
   border-radius: 35px;
   font-weight: 700;
   display: flex;
@@ -92,7 +92,7 @@ $Secondary-Font-Family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
   text-align: center;
   border: 1px solid gray;
   color: #000;
-  background-color:#fff;
+  background-color: #fff;
   border-radius: 35px;
   font-weight: 700;
   display: flex;
@@ -125,9 +125,10 @@ body {
   // padding-left: 1.5rem !important;
 }
 .Appoinment-div {
-  /* background-color:#fefbf4; */
+  background-color: #fefbf4;
   margin: 0px;
   padding: 0px !important;
+  height: 350px;
 }
 .next-and-previous-appoinments-div {
   display: flex;
@@ -135,6 +136,7 @@ body {
   height: auto;
   margin-left: 1rem;
   padding-left: 1rem;
+  margin-bottom: 0px !important;
 }
 .Appoinment-main-div {
   border-radius: 15px;
@@ -242,7 +244,7 @@ body {
   /* border: none; */
   width: 100%;
   border-collapse: collapse;
-  margin-top: 2rem;
+  // margin-top: 2rem;
 }
 tr {
   border-top: none;

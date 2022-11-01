@@ -64,7 +64,7 @@ export default function ClippedDrawer() {
                     <ListItemButton
                       style={{
                         gap: "1rem",
-                        marginTop: ".8rem",
+                        marginTop: "1rem",
                         alignItems: "center",
                         justifyContent: "center",
                         display: "flex",
@@ -76,7 +76,29 @@ export default function ClippedDrawer() {
                     >
                       {text.icons}
 
-                      <ListItemText primary={text.name} />
+                      <ListItemText
+                        primary={
+                          <h3
+                            style={{
+                              color: "black",
+                              fontFamily: [
+                                "-apple-system",
+                                "BlinkMacSystemFont",
+                                '"Segoe UI"',
+                                "Roboto",
+                                '"Helvetica Neue"',
+                                "Arial",
+                                "sans-serif",
+                                '"Apple Color Emoji"',
+                                '"Segoe UI Emoji"',
+                                '"Segoe UI Symbol"',
+                              ],
+                            }}
+                          >
+                            {text.name}
+                          </h3>
+                        }
+                      />
                     </ListItemButton>
                   </ListItem>
                 </NavLink>

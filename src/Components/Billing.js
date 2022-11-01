@@ -18,6 +18,9 @@ const Billing = () => {
         <div className="empty-div-in-billing">
           <p className="current-invoices-peragraph">Current Invoices</p>
         </div>
+        <div>
+          
+        </div>
       </div>
     </>
   );
