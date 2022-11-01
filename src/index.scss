@@ -400,7 +400,160 @@ $Trisiary-Font-Family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
   width: 100%;
   display: flex;
   align-items: center;
-  margin-left: 2rem;
+  // margin-left: 2rem;
   font-size: 1.2rem;
   font-family: $Secondary-Font-Family;
 }
+.main-div-of-billing-with-date {
+  display: flex;
+  justify-content: space-between;
+  width: auto;
+  height: 70px;
+  align-items: center;
+  background-color: #ffffff;
+  border-bottom: 0.0025rem solid #f3bab9;
+}
+.past-due-with-date {
+  display: flex;
+  width: 40%;
+  // background-color: red;
+  justify-content: space-evenly;
+}
+.past-due-btn {
+  width: 3vw;
+  height: 25px;
+  background-color: #dc8886;
+  border: none;
+  border-radius: 20px;
+  color: #262231;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.paid-btn1 {
+  width: 5vw;
+  height: 25px;
+  background-color: #6b9879;
+  border: none;
+  border-radius: 20px;
+  color: #ffffff;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.due-btn {
+  width: 3vw;
+  height: 25px;
+  background-color: #91a2c1;
+  border: none;
+  border-radius: 20px;
+  color: #262231;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.past-due-btn-in-paid {
+  width: 3vw;
+  height: 25px;
+  background-color: #88b57e;
+  border: none;
+  border-radius: 20px;
+  color: #ffffff;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.past-due-btn1 {
+  width: 5vw;
+  height: 25px;
+  background-color: #d0d8e5;
+  border: none;
+  border-radius: 20px;
+  color: #262231;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.past-due-in-btn {
+  font-family: $Secondary-Font-Family;
+  font-weight: 550;
+}
+.pay-now-in-btn {
+  font-family: $Trisiary-Font-Family;
+  font-weight: 550;
+}
+.span-past-due {
+  color: #262231;
+  font-family: $Primary-Font-Family;
+}
+
+.main-div-of-billing-with-date {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: auto;
+  height: 70px;
+  align-items: center;
+  background-color: #ffffff;
+  border-bottom: 0.0025rem solid #f3bab9;
+}
+.show-with-btn-in-footer {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  // background-color: red;
+  gap: 2rem;
+  align-items: center;
+  margin-left: 2rem;
+}
+.show-btn1-in-footer {
+  width: 5vw;
+  height: 50px;
+  background-color: #ffffff;
+  border: 1px solid #262231;
+  border-radius: 40px;
+  color: #565d70;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.show-items-btn {
+  font-family: $Trisiary-Font-Family;
+  font-weight: 550;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.show-with-btn {
+  display: flex;
+  flex-wrap: wrap;
+  width: 50%;
+  // background-color: red;
+  align-items: center;
+}
+
+.show-with-btn1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 1rem;
+  width: 50%;
+  // background-color: green;
+}
+.main-div-of-show-btn-footer {
+  justify-content: space-between;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  background-color: #fefbf4;
+  // margin-top: 1rem;
+}
+.main-div-of-show-btn-footer-with-margin {
+  justify-content: space-between;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  background-color: #fefbf4;
+  margin-top: 1rem;
+}
+

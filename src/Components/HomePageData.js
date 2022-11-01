@@ -4,6 +4,8 @@ import VideoChatIcon from "@mui/icons-material/VideoChat";
 import PersonIcon from "@mui/icons-material/Person";
 import LocationOnIcon from "@mui/icons-material/LocationOn";
 import DoorSlidingIcon from "@mui/icons-material/DoorSliding";
+import ArrowLeftIcon from "@mui/icons-material/ArrowLeft";
+import ArrowRightIcon from "@mui/icons-material/ArrowRight";
 import { HiOutlinePlusCircle } from "react-icons/hi";
 import StickyHeadTable from "./DateTime";
 import TableData from "./TableData";
@@ -15,7 +17,7 @@ const HomePageData = () => {
         <div class=" main-div-data">
           <h2>Your Appoinments</h2>
           <button className="outlined11">
-            <AddCircleRoundedIcon className="outlined-icon"/>
+            <AddCircleRoundedIcon className="outlined-icon" />
             <span>Request Appoinments</span>
           </button>
         </div>
@@ -110,6 +112,34 @@ const HomePageData = () => {
         </div>
       </div>
       <TableData />
+      <div className="main-div-of-show-btn-footer">
+        <div className="main-div-of-show-btn-footer-with-margin">
+          <div className="show-with-btn">
+            <div className="show-with-btn-in-footer">
+              <div>
+                <h4 className="span-past-due">Show :</h4>
+              </div>
+              <div>
+                <button className="show-btn1-in-footer">
+                  <span className="show-items-btn">Show items</span>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div className="show-with-btn1">
+            <span className="show-items-btn">
+              <ArrowLeftIcon />
+            </span>
+            <span className="show-items-btn">1</span>
+            <span className="show-items-btn">2</span>
+            <span className="show-items-btn">3</span>
+            <span className="show-items-btn">....</span>
+            <span className="show-items-btn">
+              <ArrowRightIcon />
+            </span>
+          </div>
+        </div>
+      </div>
     </>
   );
 };

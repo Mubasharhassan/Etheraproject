@@ -8,12 +8,10 @@ const Profile = () => {
       <div>
         <div class=" main-div-data">
           <h2>Profile</h2>
-          <div className="outline-btn-div">
-            <button className="outlined">
-              <AddCircleRoundedIcon className="outlined-icon" />
-              <span>Request Appoinments</span>
-            </button>
-          </div>
+          <button className="outlined11">
+            <AddCircleRoundedIcon className="outlined-icon" />
+            <span>Request Appoinments</span>
+          </button>
         </div>
 
         <form className="insurance-form">
