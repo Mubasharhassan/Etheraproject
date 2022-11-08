@@ -53,7 +53,7 @@ $Secondary-Font-Family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
   gap: 1rem;
   /* padding-left: 13.5rem; */
 }
-.outline-btn-div{
+.outline-btn-div {
   display: flex;
   flex-wrap: wrap;
   background-color: red;
@@ -77,7 +77,7 @@ $Secondary-Font-Family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
 }
 .outlined11 {
   border: none;
-  width: 9vw;
+  // width: 9vw;
   text-align: center;
   color: #fff;
   background-color: #84a28c;
@@ -115,8 +115,8 @@ $Secondary-Font-Family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
   display: flex;
   align-items: center;
   // margin-right: 1rem;
-  padding-left: 0px;
-  // gap: 1rem;
+  padding-left: 5px;
+  gap: 1rem;
 }
 .main {
   width: 100%;
@@ -147,14 +147,15 @@ body {
 .Appoinment-main-div {
   border-radius: 15px;
   border: 1px solid gray;
-  width: 25%;
+  width: 30%;
   border-radius: 15px;
   /* border-bottom-left-radius: 15px; */
 }
 .Appoinment-main-div1 {
-  height: 9vh;
+  height: 100%;
   border: 1px solid gray;
-  width: 25%;
+  width: 30%;
+  // width: fit-content;
   border-radius: 15px;
   /* border-bottom-left-radius: 15px; */
 }
@@ -180,7 +181,7 @@ body {
 }
 .Appoinment-div2 {
   border-radius: 15px;
-  border-bottom: 1px solid gray;
+  // border-bottom: 1px solid gray;
   padding: 5px;
   justify-content: center;
   align-items: center;
@@ -201,6 +202,10 @@ body {
   font-family: $Primary-Font-Family;
 }
 .time {
+  padding: 0.4rem;
+  font-weight: 650;
+  font-size: 1.5rem;
+  font-family: $Primary-Font-Family;
   font-weight: 500;
   padding: 0.4rem;
 }
@@ -234,7 +239,7 @@ body {
 }
 .outlined1 {
   border: none;
-  width: 6vw;
+  // width: 6vw;
   text-align: center;
   color: #fff;
   background-color: #84a28c;
@@ -260,10 +265,11 @@ tr {
 th {
   background-color: #faf6ed;
   height: 60px;
-  padding: 0 1rem;
+  color: #846868;
+  padding: 0 1.5rem;
   text-align: left;
-  font-family: $Primary-Font-Family;
-  font-size: 1.5rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.2rem;
   border-left: 1.5px solid #babab2;
   border-right: 1.5px solid #babab2;
 }
@@ -281,12 +287,13 @@ td {
 .table-data {
   font-size: 1.5rem;
   font-weight: 600;
-  font-family: $Secondary-Font-Family;
+  font-family: sans-serif;
 }
 .table-data-time {
-  font-size: 1rem;
+  font-size: 1.3rem;
+  color: #846868;
   font-weight: 500;
-  font-family: $Primary-Font-Family;
+  font-family: $Secondary-Font-Family;
 }
 .table-row-data {
   border: 0.5px solid #babab2;

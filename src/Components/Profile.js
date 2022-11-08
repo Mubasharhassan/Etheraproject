@@ -7,7 +7,7 @@ const Profile = () => {
     <>
       <div>
         <div class=" main-div-data">
-          <h2>Profile</h2>
+          <h2 className="header-pera">Profile</h2>
           <button className="outlined11">
             <AddCircleRoundedIcon className="outlined-icon" />
             <span>Request Appoinments</span>

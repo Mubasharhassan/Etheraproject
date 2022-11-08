@@ -17,15 +17,17 @@ const Billing = () => {
             <span>Request Appoinments </span>
           </button>
         </div>
-        <div className="empty-div-in-billing">
-          <p className="current-invoices-peragraph">Current Invoices</p>
+        <div className="div-in-billing">
+          <div className="empty-div-in-billing">
+            <p className="current-invoices-peragraph">Current Invoices</p>
+          </div>
         </div>
 
         <div className="main-div-of-billing-with-date">
           <div className="past-due-with-date">
             <div>
               <button className="past-due-btn">
-                <span className="past-due-in-btn">Past Due</span>
+                <span className="past-due-in-btn">Past</span>
               </button>
             </div>
             <div>
@@ -49,7 +51,7 @@ const Billing = () => {
           <div className="past-due-with-date">
             <div>
               <button className="past-due-btn">
-                <span className="past-due-in-btn">Past Due</span>
+                <span className="past-due-in-btn">Past</span>
               </button>
             </div>
             <div>

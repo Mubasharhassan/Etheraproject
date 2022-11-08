@@ -8,6 +8,14 @@ $Trisiary-Font-Family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
 .insurance-form {
   margin-top: 20px;
 }
+.previous-pera{
+  font-size: 1rem;
+  font-family: $Primary-Font-Family;
+}
+.header-pera{
+  font-family: $Primary-Font-Family;
+  margin-left: 2rem;
+}
 .Insurance-company {
   width: 60%;
   /* flex-wrap: wrap; */
@@ -235,8 +243,8 @@ $Trisiary-Font-Family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
   margin-top: 1rem;
 }
 .outlined3 {
-  width: 20%;
-  height: 3rem;
+  // width: 20%;
+  // height: 3rem;
   text-align: center;
   color: #fff;
   background-color: #fff9ef;
@@ -389,6 +397,12 @@ $Trisiary-Font-Family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
   padding: 0px;
 }
 .empty-div-in-billing {
+  // background-color: #f9f3e5;
+  // height: 80px;
+  // margin-top: 0px;
+  margin-left: 2rem;
+}
+.div-in-billing {
   background-color: #f9f3e5;
   height: 80px;
   margin-top: 0px;
@@ -429,6 +443,19 @@ $Trisiary-Font-Family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
   text-align: center;
   justify-content: center;
   align-items: center;
+}
+@media only screen and (max-width: 300px) {
+  .past-due-btn {
+    width: 4vw;
+    height: 25px;
+    background-color: #dc8886;
+    border: none;
+    border-radius: 20px;
+    color: #262231;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
 }
 .paid-btn1 {
   width: 5vw;
@@ -507,8 +534,8 @@ $Trisiary-Font-Family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
   margin-left: 2rem;
 }
 .show-btn1-in-footer {
-  width: 5vw;
-  height: 50px;
+  // width: 5vw;
+  // height: 50px;
   background-color: #ffffff;
   border: 1px solid #262231;
   border-radius: 40px;
@@ -516,6 +543,7 @@ $Trisiary-Font-Family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
   text-align: center;
   justify-content: center;
   align-items: center;
+  padding: 10px;
 }
 .show-items-btn {
   font-family: $Trisiary-Font-Family;
@@ -556,4 +584,3 @@ $Trisiary-Font-Family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
   background-color: #fefbf4;
   margin-top: 1rem;
 }
-

@@ -13,7 +13,7 @@ const Insurance = () => {
     <>
       <div>
         <div class=" main-div-data">
-          <h2>Insurance</h2>
+          <h2 className="header-pera">Insurance</h2>
           <button className="outlined11">
             <AddCircleRoundedIcon className="outlined-icon" />
             <span>Request Appoinments</span>

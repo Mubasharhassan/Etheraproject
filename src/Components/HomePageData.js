@@ -15,7 +15,7 @@ const HomePageData = () => {
     <>
       <div className="Appoinment-div ">
         <div class=" main-div-data">
-          <h2>Your Appoinments</h2>
+          <h2 className="header-pera">Your Appoinments</h2>
           <button className="outlined11">
             <AddCircleRoundedIcon className="outlined-icon" />
             <span>Request Appoinments</span>
@@ -25,13 +25,15 @@ const HomePageData = () => {
         <div className="next-and-previous-appoinments-div">
           <div className="Appoinment-main-div1">
             <div className="Appoinment-div1">
-              <div>
-                <span>Previous Appoinments</span>
-              </div>
-              <div className="Date-with-time">
-                <span className="date">07/22/2022 | 8:00 AM - 9:00 AM</span>
-                {/* <span className="date">|</span> */}
-                {/* <span className="time">8:00 AM - 9:00 AM</span> */}
+              <div style={{ marginLeft: "3rem" }}>
+                <div>
+                  <span className="previous-pera">Previous Appoinments</span>
+                </div>
+                <div className="Date-with-time">
+                  <span className="date">07/22/2022 |</span>
+                  {/* <span className="date">|</span> */}
+                  <span className="time">8:00 AM - 9:00 AM</span>
+                </div>
               </div>
             </div>
             <div className="Appoinment-div2">
@@ -60,13 +62,15 @@ const HomePageData = () => {
 
           <div className="Appoinment-main-div">
             <div className="Appoinment-div3">
-              <div>
-                <span>Next Appoinments</span>
-              </div>
-              <div className="Date-with-time">
-                <span className="date">Today | 8:00 AM - 9:00 AM</span>
-                {/* <span className="date">|</span> */}
-                {/* <span className="time">8:00 AM - 9:00 AM</span> */}
+              <div  style={{ marginLeft: "3rem" }}>
+                <div>
+                  <span className="previous-pera">Next Appoinments</span>
+                </div>
+                <div className="Date-with-time">
+                  <span className="date">Today |</span>
+                  {/* <span className="date">|</span> */}
+                  <span className="time">8:00 AM - 9:00 AM</span>
+                </div>
               </div>
             </div>
             <div className="Appoinment-div22">
