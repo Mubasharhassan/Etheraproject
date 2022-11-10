@@ -9,6 +9,7 @@ import ArrowRightIcon from "@mui/icons-material/ArrowRight";
 import { HiOutlinePlusCircle } from "react-icons/hi";
 import StickyHeadTable from "./DateTime";
 import TableData from "./TableData";
+import { Grid } from "@mui/material";
 
 const HomePageData = () => {
   return (
@@ -23,9 +24,10 @@ const HomePageData = () => {
         </div>
 
         <div className="next-and-previous-appoinments-div">
+        {/* <Grid> */}
           <div className="Appoinment-main-div1">
             <div className="Appoinment-div1">
-              <div style={{ marginLeft: "3rem" }}>
+              <div style={{ marginLeft: "3rem", paddingTop:".5rem" }}>
                 <div>
                   <span className="previous-pera">Previous Appoinments</span>
                 </div>
@@ -59,10 +61,11 @@ const HomePageData = () => {
               </div>
             </div>
           </div>
+          {/* </Grid> */}
 
           <div className="Appoinment-main-div">
             <div className="Appoinment-div3">
-              <div  style={{ marginLeft: "3rem" }}>
+              <div  style={{ marginLeft: "3rem", paddingTop:".5rem" }}>
                 <div>
                   <span className="previous-pera">Next Appoinments</span>
                 </div>

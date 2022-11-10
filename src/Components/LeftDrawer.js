@@ -44,8 +44,6 @@ export default function ClippedDrawer() {
           }}
         >
           <Box sx={{ overflow: "auto" }}>
-            {/* <Divider /> */}
-
             <List>
               {drawerList.map((text, index) => (
                 <NavLink
